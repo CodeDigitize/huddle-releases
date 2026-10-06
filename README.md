@@ -10,9 +10,9 @@ Installers for the Huddle desktop client. Download the latest release from the
 
 ## macOS first launch
 
-Until a release is marked as signed/notarized in its notes, macOS may say the
-app is damaged: right-click the app → **Open**, or run once
-`xattr -cr "/Applications/Huddle.app"`.
+Releases from 1.0.6 on are signed with a Developer ID and notarized by Apple,
+so they open without warnings. Only the older 1.0.x builds needed
+right-click → **Open** on first launch.
 
 ## Updates
 
