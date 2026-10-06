@@ -5,18 +5,14 @@ Installers for the Huddle desktop client. Download the latest release from the
 
 | Platform | File |
 | --- | --- |
-| macOS (Apple Silicon, M1/M2/M3/M4) | `Huddle-<version>-mac-arm64.dmg` |
-| macOS (Intel) | `Huddle-<version>-mac-x64.dmg` |
-| Windows (64-bit) | `Huddle-Setup-<version>.exe` |
+| macOS (Apple Silicon, M1–M4) | [`Huddle-mac-arm64.dmg`](https://github.com/CodeDigitize/huddle-releases/releases/latest/download/Huddle-mac-arm64.dmg) |
+| Windows (64-bit) | [`Huddle-Setup-x64.exe`](https://github.com/CodeDigitize/huddle-releases/releases/latest/download/Huddle-Setup-x64.exe) |
 
 ## macOS first launch
 
-The app is not notarized yet, so macOS may say it is damaged or from an
-unidentified developer. Either right-click the app → **Open**, or run once:
-
-```
-xattr -cr "/Applications/Huddle.app"
-```
+Releases from 1.0.5 on are signed and notarized. For older, unsigned builds
+macOS may say the app is damaged: right-click the app → **Open**, or run once
+`xattr -cr "/Applications/Huddle.app"`.
 
 ## Updates
 
